@@ -12,13 +12,18 @@ def animals():
 
     # TODO 1. Ask the user which animal they want, then see and
     #  hear the animal they chose using one of the methods below.
-    animal_image  = simpledialog.askstring(title = 'hi', prompt= 'Enter an animal you would like to see preferebly a dog, cat,cow, duck, or llama')
+    animal_image  = simpledialog.askstring(title = 'hi', prompt= 'Enter an animal you would like to see preferebly a dog, cat,cow, duck, or llama, as we dont have stuff for other animals, and start with a capital')
     if animal_image == "llama":
         llama_scream()
     if animal_image == 'Dog':
         woof()
     if animal_image == 'Cat':
         meow()
+    if animal_image == 'Duck':
+        quack()
+    if animal_image == 'Cow':
+        moo()
+
     # TODO 2. Make it so that the user can keep entering new animals.
 
     # TODO 3. If the user enters 'exit', stop the program
