@@ -1,7 +1,7 @@
 """
 Processing Demo
 """
-
+   if __name__ == '__main__':
 # Processing has many built in functions to draw colorful
 # shapes very easily. Lets do a quick example:
 def setup():
